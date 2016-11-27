@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>springmvc-chapter2</module>
+        <module>springmvc-chapter4</module>
     </modules>
 
     <dependencies>
