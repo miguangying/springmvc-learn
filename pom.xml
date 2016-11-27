@@ -6,7 +6,11 @@
 
     <groupId>org.miguangying</groupId>
     <artifactId>springmvc-learn</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>springmvc-chapter2</module>
+    </modules>
 
     <dependencies>
         <dependency>
