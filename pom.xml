@@ -11,6 +11,7 @@
     <modules>
         <module>springmvc-chapter2</module>
         <module>springmvc-chapter4</module>
+        <module>spring-core-source-test</module>
     </modules>
 
     <dependencies>
