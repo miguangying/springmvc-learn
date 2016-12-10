@@ -1,14 +1,14 @@
 package cn.javass.chapter4.web.controller;
 
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.Controller;
+import org.springframework.web.servlet.mvc.AbstractController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class HelloWorldController implements Controller {
+public class HelloWorldController extends AbstractController {
 	@Override
-	public ModelAndView handleRequest(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+	protected ModelAndView handleRequestInternal(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		//1、收集参数
 		//2、绑定参数到命令对象
 		//3、调用业务对象
